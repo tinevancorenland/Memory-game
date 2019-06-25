@@ -1,0 +1,62 @@
+* {
+  margin: 10px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  text-align: center;
+  background-color: pink;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 15px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.card {
+  border: 1px solid black;
+  background-color: pink;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  text-align: center;
+}
+
+.imgArdeche,
+.imgArdecheMatch {
+  background-image: url(./ardeche.jpeg);
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  background-position: center;
+}
+
+.imgBbq {
+  background-image: url(./bbq.jpeg);
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  background-position: center;
+}
+
+.imgRoadtrip {
+  background-image: url(./roadtrip.jpg);
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  background-position: center;
+}
+
+.imgTent {
+  background-image: url(./tent.jpg);
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  background-position: center;
+}
