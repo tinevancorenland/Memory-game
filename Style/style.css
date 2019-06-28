@@ -12,6 +12,11 @@ body {
 h1 {
   text-align: center;
   color: whitesmoke;
+  background-color: orange;
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 35px;
   padding: 20px;
   font-size: 30px;
   font-weight: normal;
@@ -27,6 +32,25 @@ h2 {
   font-size: 20px;
   font-weight: normal;
   color: whitesmoke;
+}
+
+button {
+  background-color: whitesmoke;
+  color: lightsalmon;
+  margin: auto;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 30px;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: normal;
+  display: block;
+}
+
+button:hover {
+  background-color: orange;
+  color: #464646;
 }
 
 .card-container {
