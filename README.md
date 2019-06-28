@@ -8,8 +8,8 @@
 
 - Must haves
 
-[x] Clicking cards turns them around
-[x] Randomly position the cards
-[x] Explanation on the page itself
+- [x] Clicking cards turns them around
+- [x] Randomly position the cards
+- [x] Explanation on the page itself
 
 ![memory](https://media.giphy.com/media/3GnCVaJAGhfJ6/giphy.gif)
